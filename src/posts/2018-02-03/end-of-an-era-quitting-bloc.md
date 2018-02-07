@@ -1,6 +1,6 @@
 ---
 title: End of an era - Quitting Bloc
-slug: end-of-an-era-quitting-bloc
+slug: /end-of-an-era-quitting-bloc
 date: 2018-02-03
 ---
 
