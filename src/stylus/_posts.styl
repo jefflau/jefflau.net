@@ -1,0 +1,19 @@
+.posts-item
+  list-style none 
+  a
+    text-decoration none
+    color $link-color
+    display flex
+    justify-content: space-between
+    transition 0.2s
+
+    &:hover
+      .posts-date
+        color #333
+
+  .posts-date
+    width 95px
+    text-align right
+    color $light-grey
+    font-size 14px
+    font-style italic

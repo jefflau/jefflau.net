@@ -1,0 +1,28 @@
+---
+title: Learning with self-coaching and self-accountability
+date: 2013-11-03
+slug: /learning-with-self-coaching-and-self-accountability
+tags: ["Chinese Learning","Language Learning","Learning","Life"]
+---
+
+For a few weeks now I've been getting involved with a Facebook group about motivating yourself to build a habit. It involves a goal and a forfeit for that goal. Each goal, such as write a blog post once a week, needs to be backed up with proof that the task has been completed. If proof hasn't been provided for any reason then you have to complete a forfeit. That's the basic concept and with this I've begun writing these weekly blog posts as well beginning to study Chinese again. This has allowed me to realise how important accountability is for maintaining good habits. And good habits allow you learn quickly and efficiently.
+
+I've been learning Chinese for a year now and my level has risen to a point where if someone asks me how my Chinese is now, I can fake progress. I can consciously fake my progress to those that don't talk to me in Chinese everyday as they can't be completely sure of my previous level. And I also fake it unconsciously: when someone talks to me in Chinese and my Mandarin impresses them. That in turns gives me gratification which then makes me happier with my Mandarin than I should be and more complacent. In the beginning I felt pressure to show progress. I announced to everyone that I was learning Mandarin, at from zero to a basic level of language learner, it's easy to tell how fast someone is improving. At an intermediate level it's much more difficult to see progress and therefore much more difficult for people to call me out on my lack of progress. Therefore the only way I can keep myself on track is by call myself out on it.
+
+This is where self-accountability and self-coaching comes in. Coaching can be done by teachers, coaches or mentors, and accountability can be done by a group of like-minded individuals or friends. However the most powerful kind of coaching is done by yourself. Your teachers can only coach you whilst they're teaching you, and they lack the proximity to keep you accountable to your own goals (they're also not paid enough most of the time). However you are always with yourself, and therefore if you learn to be self-accountable and learn to self coach, you can learn extremely quickly and force yourself to improve and not be complacent.
+
+### **So how do you self-coach and make yourself accountable?**
+
+Starting  with accountability, this involves mini motivational hacks to make yourself more accountable for your own progress. So for instances the forfeits I have to do if I don't put up a blog post every week, which can be something embarrassing or something monetary based. It has to a task that you really don't want to do or it's not going to keep yourself accountable.
+
+These goals gradually build up the more I get used to the habit. And the longer the habit goes on for, the greater that feeling of guilt and dread when you're thinking of not completing it. Once it becomes a habit, you have already achieved self-accountability without having to use forfeit. You've programmed your brain to feel uneasy when you haven't completed that ritual everyday or every week. And once you start to feel the habit is becoming too easy, that's where self coaching comes in.
+
+![A-smooth-sea-never-made-a-skillful-sailorA-smooth-sea-never-made-a-skillful-sailor](A-smooth-sea-never-made-a-skillful-sailorA-smooth-sea-never-made-a-skillful-sailor-250x300.jpeg)
+
+Self coaching I will talk about in terms of learning Mandarin. It's about two things. The first is being able to spot your own mistakes and errors and act upon them. The second is about learning when things aren't challenging enough - when the material you're using to learn is too easy.
+
+One of the most important things for learning Mandarin is pronunciation and tones. Pronunciation can make or break a conversation and it can also make or break your confidence if you're not being understood. So for me when I do my flash cards (which reminds me I need to get back on that!) no matter whether I'm practising reading, writing, translation etc... I will try and say that word and then I'll use the audio clips to play it back in a native voice. If I feel I pronounced it incorrectly I will repeat it again until I'm satisfied. This is the crux of self-coaching, you must be willing to see your own mistakes, and have a method to correct them.
+
+When you're really good at pronouncing things as single words, try phrases and then sentences, try reading out a whole paragraph and see if natives think it sounds natural. You must keep evolving your material by self-assessment constantly. It's not enough to just follow a book through until the end and expect to have mastered a skill.
+
+For me I believe that self-learning, self-coaching and making yourself accountable should be something everyone should be working on first. It's easier to blame others and other situations rather than blaming ourselves. So we must first learn to coach ourselves, teach ourselves and force ourselves to be accountable, before we put any of our own learning at the responsibility of another person. 99% of the time, only we are to blame for our own failures. I learnt Mandarin and web development far faster than I ever learnt graphic design at university, because I made myself accountable for my own progress. For my course and university it was always much easier to blame the course, the teacher or my course mates. But if you're coaching yourself, you have no one else to blame.
