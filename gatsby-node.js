@@ -14,7 +14,7 @@ exports.createPages = ({ boundActionCreators, graphql}) => {
   const postTemplate = path.resolve('src/templates/post.js')
   const pageTemplate = path.resolve('src/templates/page.js')
 
-  const promise1 = graphql(`{
+  const posts = graphql(`{
     allMarkdownRemark #(filter:{ frontmatter: { page: {ne:true} }}) 
     {
       edges {
@@ -42,35 +42,35 @@ exports.createPages = ({ boundActionCreators, graphql}) => {
     })
   })
 
-  // const promise2 = graphql(`{
-  //   allMarkdownRemark(
-  //     filter:{ frontmatter: { page: {eq:true} }}
-  //   ) {
-  //     edges {
-  //       node {
-  //         html
-  //         id
-  //         frontmatter {
-  //           title
-  //           slug
-  //         }
-  //       }
-  //     }
-  //   }
-  // }`)
-  // .then(res => {
-  //   if(res.errors) {
-  //     return Promise.reject(res.errors)
-  //   }
+  const pages = graphql(`{
+    allMarkdownRemark(
+      filter:{ frontmatter: { page: {eq:true} }}
+    ) {
+      edges {
+        node {
+          html
+          id
+          frontmatter {
+            title
+            slug
+          }
+        }
+      }
+    }
+  }`)
+  .then(res => {
+    if(res.errors) {
+      return Promise.reject(res.errors)
+    }
 
-  //   res.data.allMarkdownRemark.edges.forEach(({ node}) => {
-  //     createPage({
-  //       path: node.frontmatter.slug,
-  //       component: pageTemplate,
-  //       context: node
-  //     })
-  //   })
-  // })
+    res.data.allMarkdownRemark.edges.forEach(({ node}) => {
+      createPage({
+        path: node.frontmatter.slug,
+        component: pageTemplate,
+        context: node
+      })
+    })
+  })
 
-  return promise1
+  return Promise.all([posts, pages])
 }

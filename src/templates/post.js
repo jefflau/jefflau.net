@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-export default (data) => {
+export default ({data}) => {
   console.log(data)
   const { markdownRemark: post } = data;
   //const { pathContext: post} = data

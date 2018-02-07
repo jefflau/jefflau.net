@@ -15,9 +15,9 @@ const TemplateWrapper = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header /* pages={data.pages.edges} *//>
+    <Header pages={data.pages.edges} />
     <main>
-      {React.cloneElement(children(), { data })}
+      {children()}
     </main>
   </div>
 )
@@ -28,42 +28,21 @@ TemplateWrapper.propTypes = {
 
 export default TemplateWrapper
 
-// export const query = graphql`
-//   query allPosts2{
-//     allPosts:allMarkdownRemark(
-//       limit: 1000, 
-//       #filter:{ frontmatter: { page: {ne:true} }}
-//       sort: { fields: [frontmatter___date], order:DESC}
-//     ){
-//       edges{
-//         node{
-//           id
-//           frontmatter{
-//             title
-//             slug
-//             date(formatString: "D MMM YYYY")
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
-
-// export const query = graphql`
-//   query navigation {
-//     pages:allMarkdownRemark(
-//       #filter:{ frontmatter: { page:{eq:true} }}
-//       sort: { fields: [frontmatter___date], order:DESC}
-//     ){
-//       edges{
-//         node{
-//           id
-//           frontmatter{
-//             title
-//             slug
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
+export const query = graphql`
+  query navigation {
+    pages:allMarkdownRemark(
+      filter:{ frontmatter: { page:{eq:true} }}
+      sort: { fields: [frontmatter___date], order:DESC}
+    ){
+      edges{
+        node{
+          id
+          frontmatter{
+            title
+            slug
+          }
+        }
+      }
+    }
+  }
+`

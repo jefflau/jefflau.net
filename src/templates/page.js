@@ -6,7 +6,6 @@ export default ({
 }) => {
   const { markdownRemark: post } = data;
   return <div>
-    <div className="date">{post.frontmatter.date}</div>
     <h1>
       {post.frontmatter.title}
     </h1>
