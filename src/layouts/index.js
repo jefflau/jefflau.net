@@ -9,10 +9,10 @@ import '../stylus/index.styl'
 const TemplateWrapper = ({ children, data }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="jefflau.net"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Distilling the complicated in a simple way' },
+        { name: 'keywords', content: 'javascript, technology, motivation, mentorship, teaching' },
       ]}
     />
     <Header pages={data.pages.edges} />
