@@ -1,6 +1,6 @@
 ---
 title: Building a Gatsby Blog
-slug: /building-gatsby-blog
+slug: /building-a-gatsby-blog
 date: 2018-02-09
 ---
 
