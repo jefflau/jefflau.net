@@ -3,16 +3,22 @@
   a
     text-decoration none
     color $link-color
-    display flex
-    justify-content: space-between
+    display block
     transition 0.2s
+    position relative
 
     &:hover
       .posts-date
         color #333
+  .posts-title
+    display block
+    max-width calc(100% - 90px)
 
   .posts-date
-    width 95px
+    position absolute
+    right 0
+    top 0
+    width 90px
     text-align right
     color $light-grey
     font-size 14px
