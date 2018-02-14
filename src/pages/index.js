@@ -20,9 +20,11 @@ export const query = graphql`
   query allPosts{
     allPosts:allMarkdownRemark(
       limit: 1000, 
-      filter:{ 
-        frontmatter: { page: {ne:true} }
-        frontmatter: { draft:{ne:true} }
+      filter:{
+        frontmatter: { 
+          page: {ne:true}, 
+          draft:{ne:true} 
+        }
       }
       sort: { fields: [frontmatter___date], order:DESC}
     ){
