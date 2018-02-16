@@ -2,7 +2,6 @@
 title: Why I'm delving into private Frontend mentorship
 slug: /why-im-delving-into-private-frontend-mentorship
 date: 2018-02-16
-draft: true
 ---
 Over the last 3 years I have spent most weeks teaching people 1-on-1 on Skype. Although it's not always been my main source of income, it's been an integral part of my life. I worked for a online bootcamp company called [Bloc.io](http://bloc.io) and they opened my eyes to what it would be like to teach for a living. At the beginning I was pretty scared and unsure of myself, but slowly I grew into a mentor I would have liked for myself. 
 
