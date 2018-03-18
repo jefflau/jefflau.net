@@ -66,3 +66,7 @@ Here we can see we have abstracted the handlers away from the original component
 This pattern above is so widely used that Recompose has a helper to do it both in one called [`withStateHandlers`](https://github.com/acdlite/recompose/blob/master/docs/API.md#withstatehandlers). However the above example illustrates how HOCs can make use of the props that are exposed by each other. This means that the order of your HOCs within the compose helper is important. The `withState` HOC needs to be first as the `withHandlers` uses the `setCounter` function as a prop to create the handler.
 
 Using recompose has been a breath of fresh air helping to simplify my React development and keeping my components structured and focussed. Recompose can also be used with popular libraries such as Redux or Apollo that use HOCs already to enhance React components.
+
+Here's the code on a codesandbox for you to play with!
+
+[https://codesandbox.io/s/znrzvk078x](https://codesandbox.io/s/znrzvk078x)
