@@ -78,6 +78,7 @@ const Mentorship = () => (
 
     <ul>
       <li>8 years of coding experience</li>
+      <li>3.5 years of 1-to-1 teaching experience</li>
       <li>HTML</li>
       <li>CSS</li>
       <li>Javascript (including ES6 and beyond)</li>
