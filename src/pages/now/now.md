@@ -8,7 +8,7 @@ date_updated:   2018-02-02
 
 ###What am I doing right now
 
-Updated 2 February 2018
+Updated 21 March 2018
 
 I'm in Taipei and right now I am:
 
@@ -17,5 +17,7 @@ I'm in Taipei and right now I am:
 * Freelancing again
 * Climbing three times a week.
 * Started lifting weights to balance out my muscle imbalances
-* Getting the computer science fun damentals I didn't get in university
-
+* Learning VulcanJS, a GraphQL framework
+* Learning GraphQL and Apollo
+* Learning more about testing
+* Updating my npm package with ~200k downloads a month that has been neglected for too long. A testing package called [jest-fetch-mock](https://www.npmjs.com/package/jest-fetch-mock)
