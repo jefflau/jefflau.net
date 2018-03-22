@@ -1,7 +1,7 @@
 ---
-title: What I've learnt from making 190k downloads a month npm module
-slug: /what-ive-learnt-from-making-a-190k-downloads-a-month-npm-module
-date: 2018-03-22
+title: What I've learnt from making  a 190k downloads a month npm package
+slug: /what-ive-learnt-from-making-a-190k-downloads-a-month-npm-package
+date: 2018-03-23
 draft: true
 ---
 
