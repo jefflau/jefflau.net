@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'jefflau.net',
+    title: 'jefflau.net'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -10,9 +10,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-36457478-1",
-        anonymize: true,
-      },
+        trackingId: 'UA-36457478-1',
+        anonymize: true
+      }
     },
     {
       resolve: 'gatsby-source-filesystem',
@@ -55,8 +55,8 @@ module.exports = {
               // will be rendered at 50px.
               //
               // Defaults to false.
-              sizeByPixelDensity: false,
-            },
+              sizeByPixelDensity: false
+            }
           },
           `gatsby-remark-copy-linked-files`,
           {
@@ -69,17 +69,17 @@ module.exports = {
               // you may use this to prevent Prism from re-processing syntax.
               // This is an uncommon use-case though;
               // If you're unsure, it's best to use the default value.
-              classPrefix: "language-",
-            },
-          },
-        ],
-      },
+              classPrefix: 'language-'
+            }
+          }
+        ]
+      }
     },
     {
       resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: `src/utils/typography.js`,
-      },
-    },
-  ],
+        pathToConfigModule: `src/utils/typography.js`
+      }
+    }
+  ]
 };

@@ -74,22 +74,36 @@ const Mentorship = () => (
       <cite> - Muhammad Ali</cite>
     </blockquote>
 
-    <h2>Experience and technical expertise</h2>
-
+    <h2>Experience</h2>
     <ul>
       <li>8 years of coding experience</li>
+      <li>
+        Built websites for Rolex, Wacom and other small-medium sized companies
+      </li>
+      <li>3 years mentoring at bloc.io a leading online coding bootcamp</li>
       <li>3.5 years of 1-to-1 teaching experience</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Javascript (including ES6 and beyond)</li>
-      <li>React</li>
-      <li>Redux</li>
-      <li>GraphQL</li>
-      <li>Meteor</li>
-      <li>Apollo</li>
-      <li>Node.js</li>
-      <li>Dapp development (Ethereum)</li>
-      <li>Git and Version Control</li>
+    </ul>
+    <h2>What I can teach you</h2>
+    <ul>
+      <li>HTML - The building block of the web</li>
+      <li>CSS - The paint brush of the web</li>
+      <li>Javascript/ES6+ - The interactive glue of the web</li>
+      <li>React - the defacto view framework by Facebook</li>
+      <li>Redux - the defactor state library by Facebook</li>
+      <li>
+        Gatsby - A react based static site generator (This site is built in
+        Gatsby!)
+      </li>
+      <li>GraphQL - An API query language built by Facebook</li>
+      <li>Meteor - A Ruby on Rails-like back-end framework</li>
+      <li>Apollo - A GraphQL client</li>
+      <li>Node.js - A Javascript runtime - environment outside the browser</li>
+      <li>
+        Ethereum Dapp development - Connecting to the Ethereum virtual computer
+      </li>
+      <li>
+        Git/Github - The version control and collaboration tool of the web
+      </li>
     </ul>
 
     <p>
@@ -169,6 +183,11 @@ const Mentorship = () => (
         concepts that are so alien to the average human being, I've been through
         that process. You won't hear me use jargon and I love simple metaphors.
         It's a simple joy of teaching.
+      </dd>
+      <dt>Additional Questions?</dt>
+      <dd>
+        Email me at <a href="mailto:jeff-lau@live.com">jeff-lau@live.com</a> or
+        tweet/DM me at <a href="https://twitter.com/_jefflau">@_jefflau</a>
       </dd>
     </dl>
   </div>
