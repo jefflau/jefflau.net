@@ -2,7 +2,6 @@
 title: What I've learnt from making  a 190k downloads a month npm package
 slug: /what-ive-learnt-from-making-a-190k-downloads-a-month-npm-package
 date: 2018-03-23
-draft: true
 ---
 
 Spent the last two days catching up on some open source work. I have one project to be exact (that anyone actually uses) and I made it in August 2016, which is over 1.5 years ago. Since then it has reached a peak this month of 190k downloads per month. It's a Javascript library called [jest-fetch-mock](https://www.npmjs.com/package/jest-fetch-mock).
