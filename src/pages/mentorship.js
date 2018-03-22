@@ -130,6 +130,12 @@ const Mentorship = () => (
         https://jeff643.typeform.com/to/RiKvia
       </a>
     </p>
+    <p>
+      Alternatively you can email me at{' '}
+      <a href="mailto:jeff-lau@live.com">jeff-lau@live.com</a> or tweet/DM me at{' '}
+      <a href="https://twitter.com/_jefflau">@_jefflau</a> if you have any
+      questions{' '}
+    </p>
 
     <h2>FAQ</h2>
 
