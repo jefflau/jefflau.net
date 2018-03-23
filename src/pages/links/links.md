@@ -113,3 +113,7 @@ Awesome links by me. Updated 2 February 2018
 * [Kuler](http://kuler.adobe.com/) - Selecting colour schemes using a main colour or image
 * [Material Design Colour Guidelines](https://material.io/guidelines/style/color.html#color-color-system) - Colour systems for Material Design
 * [UI Gradients](https://uigradients.com) - Collection of nice gradients
+
+### Articles
+
+* [Pairing web fonts](https://webdesign.tutsplus.com/articles/a-beginners-guide-to-pairing-fonts--webdesign-5706) - A guide to pairing fonts ont he web
