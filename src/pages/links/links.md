@@ -36,6 +36,10 @@ Awesome links by me. Updated 2 February 2018
 * [Javascript Air](https://javascriptair.com/) - Not as many episodes as JS Jabber, but content quality is also high.
 * [Syntax](https://syntax.fm/) - Great content from two Javascript teachers
 
+### Tools
+
+* [textures.js](https://riccardoscalco.github.io/textures/git) - Textures in SVG for data visualations or backgrounds
+
 ##React/Redux
 
 ### Articles/Tutorials
@@ -108,3 +112,4 @@ Awesome links by me. Updated 2 February 2018
 
 * [Kuler](http://kuler.adobe.com/) - Selecting colour schemes using a main colour or image
 * [Material Design Colour Guidelines](https://material.io/guidelines/style/color.html#color-color-system) - Colour systems for Material Design
+* [UI Gradients](https://uigradients.com) - Collection of nice gradients
