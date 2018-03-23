@@ -101,3 +101,9 @@ Awesome links by me. Updated 2 February 2018
 
 * [Public APIs](https://github.com/toddmotto/public-apis) - Tons of great free and open APIs for your sideprojects
 * [What is RESTful really mean?](https://www.sitepoint.com/what-does-restful-really-mean/)
+
+## Design
+
+### Tools
+
+* [Kuler](http://kuler.adobe.com/) - Selecting colour schemes using a main colour or image
