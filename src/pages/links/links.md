@@ -1,26 +1,39 @@
 ---
-title: Links
-slug: /links
+title: Awesome Links
+slug: /awesome-links
 page: true
 date: 2016-07-21T03:08:55.368Z
 date_updated:   2018-02-02T10:33:14.597Z
 ---
 
-Awesome links by me. Updated 2 February 2018
+Various links and resources to topics that I teach or am passionate about. The topics vary between self improvement to coding to design.
 
-##Self Improvement
+Updated 23 March 2018
+
+## Content
+
+* [Self Improvement](#self-improvement)
+* [Javascript](#javascript)
+* [React](#reactredux)
+* [CSS](#css)
+* [Computer Science](#computer-science)
+* [Blockchain](#blockchain)
+* [GraphQL/APIs](#graphqlapis)
+* [Design](#design)
+
+## Self Improvement
 
 * [Three Habits of Great Learners](https://developertea.simplecast.fm/episodes/41953-three-habits-of-great-learners) - Great habits every student/learner should have. Applies to subject.
 
-##Javascript
+## Javascript
 
-###Books
+### Books
 
 * [Eloquent Javascript](http://eloquentjavascript.net/) - Fantastic free introduction to Javascript
 * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) - 6 books to deep dive in JS. All Free.
 * [Javascript The Good Parts](http://shop.oreilly.com/product/9780596517748.do) - The Godfather of JS showing you the subset of JS that matter
 
-###Articles
+### Articles
 
 * [Javascript Promises 101](https://bitsofco.de/javascript-promises-101/) - Introduction to promises
 * [Promises - Jake Archibald](http://www.html5rocks.com/en/tutorials/es6/promises/) - Everyone needs to learn how to use promises
@@ -30,7 +43,7 @@ Awesome links by me. Updated 2 February 2018
 * [How to learn Web Frameworks](https://medium.com/shopify-ux/how-to-learn-web-frameworks-9d447cb71e68#.37u90zm8j) - Frameworks come and go, but the ability to learn a new one remains.
 * [Debugging using the console](https://medium.com/appsflyer/10-tips-for-javascript-debugging-like-a-pro-with-console-7140027eb5f6) - Debugging is a skill that takes experience, but there are tools other than the `console.log` to help you
 
-###Podcasts
+### Podcasts
 
 * [Javascript Jabber](https://devchat.tv/js-jabber) - Lots of great episodes on everything Javascript
 * [Javascript Air](https://javascriptair.com/) - Not as many episodes as JS Jabber, but content quality is also high.
@@ -40,7 +53,7 @@ Awesome links by me. Updated 2 February 2018
 
 * [textures.js](https://riccardoscalco.github.io/textures/git) - Textures in SVG for data visualations or backgrounds
 
-##React/Redux
+## React/Redux
 
 ### Articles/Tutorials
 
@@ -56,32 +69,33 @@ Awesome links by me. Updated 2 February 2018
 * [Learn Redux](http://learnredux.com/)
 * [Building React Applications with Idiomatic Redux](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
 
-###Videos
+### Videos
 
 * [Introduction to React Native (Pair Programming)](https://www.youtube.com/watch?v=r5OPRhelEIU)
 
-###Podcasts
+### Podcasts
 
 * [React30](https://react30.com/)
 * [React Native Radio](https://devchat.tv/react-native-radio)
 
-##CSS
+## CSS
 
 ###Articles
 
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-###Courses
+### Courses
 
-* [What the Flexbox?](http://flexbox.io/)
+* [What the Flexbox?](http://flexbox.io/) - Free Course on Flexbox by Wes Bos
+* [CSS Grid](https://cssgrid.io/) - Free Course on CSS Grid by Wes Bos
 
 ##Computer Science
 
-###Courses
+### Courses
 
 * https://teachyourselfcs.com/
 
-###Books
+### Books
 
 * [Algorithm design manual](https://github.com/haseebr/competitive-programming/blob/master/Materials/The%20Algorithm%20Design%20Manual%20by%20Steven%20S.%20Skiena.pdf)
 
@@ -97,11 +111,11 @@ Awesome links by me. Updated 2 February 2018
 
 * Blockchain in JS - [https://www.youtube.com/watch?v=zVqczFZr124](https://www.youtube.com/watch?v=zVqczFZr124)
 
-##GraphQL
+## GraphQL/APIs
 
 * Levelup Tutorials - [https://www.youtube.com/watch?v=VjXb3PRL9WI](https://www.youtube.com/watch?v=VjXb3PRL9WI)
 
-###Miscellaneous Resources
+### Miscellaneous Resources
 
 * [Public APIs](https://github.com/toddmotto/public-apis) - Tons of great free and open APIs for your sideprojects
 * [What is RESTful really mean?](https://www.sitepoint.com/what-does-restful-really-mean/)
