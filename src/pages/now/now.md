@@ -22,3 +22,4 @@ I'm in Taipei and right now I am:
 * Learning more about testing
 * Updating my npm package with ~200k downloads a month that has been neglected for too long. A testing package called [jest-fetch-mock](https://www.npmjs.com/package/jest-fetch-mock)
 * Just bought design code book! Planning on reading one chapter per day from today
+* Thinking about learning d3 and data viz. Been interested in it for too long...
