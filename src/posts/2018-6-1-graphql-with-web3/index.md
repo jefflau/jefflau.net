@@ -1,6 +1,6 @@
 ---
 title: Graphql with web3
-slug: /graphql-all-the-things
+slug: /graphql-with-web3
 date: 2018-03-02
 draft: true
 ---
