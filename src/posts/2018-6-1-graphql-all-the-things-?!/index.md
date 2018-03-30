@@ -1,8 +1,7 @@
 ---
 title: Graphql all the things?!
 slug: /graphql-all-the-things
-date: 2018-03-02
-draft: true
+date: 2018-03-30
 ---
 
 I've been recently introduced to the world of GraphQL and I'm loving it. The thing I like most about it is that it is a self documenting. So much so that I'd like to use it for more than just client to server interaction. GraphQL is supposed to be a query language for APIs, but APIs are not just a client to server relationship. Your app itself can create an API that does other things and it does not care where the data is coming from. An example of this is Gatsby.js that allows you to query Markdown files and build static html files from them. The advantage of using graphQL in this situation is that just by looking at the query you already know what your component is going to take and gives you a familiar interface to your data.
