@@ -1,5 +1,5 @@
 ---
-title: Graphql all the things?!
+title: GraphQL all the things?!
 slug: /graphql-all-the-things
 date: 2018-03-30
 ---

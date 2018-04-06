@@ -1,11 +1,13 @@
 ---
-title: Graphql with web3
-slug: /graphql-with-web3
+title: Graphql on the frontend with web3
+slug: /graphql-on-the-frontend-with-web3
 date: 2018-03-02
 draft: true
 ---
 
 ## The Concept implemented
+
+My last blog post was about the idea that GraphQL could be used more in the front-end. Since then I've made a proof of concept of using GraphQL with web3
 
 ## Using [Apollo Link Schema](https://www.apollographql.com/docs/link/links/schema.html)
 
