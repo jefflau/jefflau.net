@@ -72,6 +72,14 @@ module.exports = {
               // If you're unsure, it's best to use the default value.
               classPrefix: 'language-'
             }
+          },
+          {
+            resolve: 'gatsby-remark-embed-video',
+            options: {
+              width: '100%',
+              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+              related: true //Optional: Will remove related videos from the end of an embedded YouTube video.
+            }
           }
         ]
       }
