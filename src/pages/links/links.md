@@ -20,6 +20,7 @@ Updated 23 March 2018
 * [Blockchain](#blockchain)
 * [GraphQL/APIs](#graphqlapis)
 * [Design](#design)
+* [UI Animation](#uianimation)
 
 ## Self Improvement
 
@@ -29,6 +30,7 @@ Updated 23 March 2018
 
 ### Books
 
+* [Front-end Handbook](https://frontendmasters.com/books/front-end-handbook/) - Excellent resource to find more resources on how to learn front-end
 * [Eloquent Javascript](http://eloquentjavascript.net/) - Fantastic free introduction to Javascript
 * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) - 6 books to deep dive in JS. All Free.
 * [Javascript The Good Parts](http://shop.oreilly.com/product/9780596517748.do) - The Godfather of JS showing you the subset of JS that matter
@@ -91,6 +93,10 @@ Updated 23 March 2018
 
 ##Computer Science
 
+### Videos
+
+* [Computation Explanations](https://www.destroyallsoftware.com/screencasts/catalog/computing-by-constructing) - Explains Turing computers and Lambdas in a simple and interesting way
+
 ### Courses
 
 * https://teachyourselfcs.com/
@@ -132,3 +138,13 @@ Updated 23 March 2018
 ### Articles
 
 * [Pairing web fonts](https://webdesign.tutsplus.com/articles/a-beginners-guide-to-pairing-fonts--webdesign-5706) - A guide to pairing fonts ont he web
+
+## UI Animation
+
+## Courses
+
+* [SVG Animations](https://frontendmasters.com/courses/svg-animation/) - Primer to SVG Animations with Sarah Drasner
+
+## Books
+
+* [Designing Interface Animations](https://www.amazon.com/Designing-Interface-Animation-Meaningful-Experience/dp/1933820322) - Theory on UI animations
