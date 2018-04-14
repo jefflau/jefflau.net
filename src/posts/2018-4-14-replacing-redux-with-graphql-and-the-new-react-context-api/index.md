@@ -111,7 +111,7 @@ Once you start using GraphQL you realise that 80% of the data you kept in your r
 
 Well you know that thing called React that renders your view? Apparently... it's pretty good at dealing with state too. `this.state` and `this.setState()` are all you need for local component and you don't need to bother with all the action/reducer boilerplate for such simple state changes. If you want to keep your components pure, you can use Higher Order Components(HOCs) to wrap your functional components with a state container with something like recompose. I wrote a post about it [here](http://jefflau.net/improving-your-react-workflow-with-recompose-and-hoc)
 
-### A global store that I could `connect()` anywhere
+### A global store that I could connect() to any component
 
 The last part of the question is a global store that you can connect anywhere down the tree. One of the most annoying thing in React is when you have a fairly large application, you end up doing something Kent C. Dodds coined [prop drilling](https://medium.com/dailyjs/reacts-%EF%B8%8F-new-context-api-70c9fe01596b) who also wrote a great post on context. React's most recent release 16.3 has a revamped [Context API](https://reactjs.org/docs/context.html), which works like a charm. Just like Redux, you connect your App via Provider at the Root. Then at any point in the tree you import your Consumer that allows your to 'consume' the data from your Context.
 
