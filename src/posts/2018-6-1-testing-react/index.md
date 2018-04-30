@@ -1,7 +1,7 @@
 ---
 title: Arrange, Act, Assert - How to test React applications
 slug: /arrange-act-assert-how-to-test-react-applications
-date: 2018-03-02
+date: 2018-04-30
 draft: true
 ---
 
@@ -44,10 +44,10 @@ Acting is the process of the user making actions on our interface. Since this is
 ```js
 domainName.value = 'vitalik.eth';
 Simulate.change(domain);
-Simulate.submit(submitButton);
+submitButton.click();
 ```
 
-The action is very simple, we just need to act out what the user would do. In this situation he is typing into the input box, causing an onChange event to happen (which subsequently changes the state with setState).
+The action is very simple, we just need to act out what the user would do. In this situation he is typing into the input box, causing an onChange event to happen (which subsequently changes the state with setState). Secondly the user would most likely click on the submit button, which would cause the form to submit. In this example I am using the [`click`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click) method directly from the DOM element. Alternatively you could use the [`fireEvent`](https://github.com/kentcdodds/react-testing-library#fireeventnode-htmlelement-event-event) function from `react-testing-library` which does the same thing.
 
 ### Assert
 
@@ -63,12 +63,8 @@ expect(domainName.value).toBe('');
 
 ## Conclusion
 
-As we can see this a fairly simple way to test our components and it's much simpler with both Jest and React testing library. We don't need to delve into such tiny details with unit tests, and we get confidence in our application because these tests are testing closely to what the user would do. If the tests end up being unit tests because there are no side effects that's fine too, but we aren't worried about making it a pure unit test
+As we can see this a fairly simple way to test our components and it's much simpler with both Jest and React testing library. We don't need to delve into tiny details with arbitrary unit tests, and we get confidence in our application because these tests are simulates very close to what the user would do. If the tests end up being unit tests because there are no side effects that's fine too, but we aren't worried about making it a pure unit test for the sake of purity.
 
-Shallow is bad, because it automatically mocks. Refactors will break your tests which means you are testing implementation details.
+We are trying to avoid implementation details as much as possible, so we don't care what the classes are on the buttons and inputs, but are using [`getByText`](https://github.com/kentcdodds/react-testing-library#getbytexttext-textmatch-htmlelement) to find the button with the text the user actually sees. If we change the classes on this for styling reasons, the tests don't care about that and they shouldn't have to. We also avoiding testing things like state, because ultimately the user does not care about state, only what shows up on screen.
 
-Test the public api instead of implementation details.
-
-There are cases for mocking things, and for those you should be explicit about it by using jest.mock
-
-End-to-end tests are harder to see where the bug, but having integration tests are a nice balance which tests how a user would use it, but you don't need dozens of unit tests to test one component. For instance you would not want to test state on a React component, because it is largely irrelevant to the user. Whether your application uses internal React state, Redux or directly taking the values from the DOM is irrelevant to the user
+Because we are mocking one might call this an integration test, but since we are just testing this component and nothing else, we could just call this a unit test for our component. Ultimately it doesn't matter what it is called, just that it gives us the guarantees we need to be confident our component works as intended.
