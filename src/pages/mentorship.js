@@ -6,7 +6,6 @@ const Mentorship = () => (
     <h1>Front-end developer mentorship</h1>
 
     <h2>Why having a mentor is important?</h2>
-
     <p>
       Becoming a self-taught developer is never easy. The resources we have
       available our limitless and daunting. It's information overload and it is
