@@ -1,19 +1,21 @@
 ---
-title: Arrange, Act, Assert - How to test React applications
-slug: /arrange-act-assert-how-to-test-react-applications
+title: Arrange, Act, Assert - How to test React components
+slug: /arrange-act-assert-how-to-test-react-components
 date: 2018-04-30
 draft: true
 ---
 
 I've mainly avoided testing my React components, because quite frankly, it seemed complicated. Instead I've chosen to test mostly things that were easier to unit test. And instead of trying to test my components as they were, I would design my components so they were easier to test as stateless components. However changing the way I write my components to test more easily has led to abstractions that have made my code less easily reasoned about. This isn't to say this is bad, but you can always go too far.
 
-Two libraries in the last couple years have made testing much easier for me. The first is Jest, it contains everything you need including the test runner and the assertion library. Most libraries before this would require to add two different libraries such as Chai and Mocha, but Jest comes with both and more.
+Two libraries in the last couple years have made testing my components much easier for me. The first is Jest, it contains everything you need including the test runner and the assertion library. Most libraries before this would require to add two different libraries such as Chai and Mocha, but Jest comes with both included by default and added goodies such as test coverage and snapshot testing.
 
-The second is React testing library by Kent C. Dodds. When Enzyme came out, I tried it out and was immediately confused about how I should write my tests. Testing shouldn't be that hard. And after going through Kent's testing workshop on Frontend Masters I find myself nodding along at his many gem's such as:
+The second is [React testing library](https://github.com/kentcdodds/react-testing-library) by Kent C. Dodds. When Enzyme came out, I tried it out and was immediately confused about how I should write my tests. Testing shouldn't be that hard. And after going through [Kent's testing workshop](https://frontendmasters.com/workshops/testing-react-apps/) on Frontend Masters I find myself nodding along at his many gems such as:
 
 > The more your tests resemble the way your software is used, the more confidence they can give you.
 
-It's very rare that you can test your UI without any kind of side effect, and so you will need to mock out those functions. Kent's method is to test as close to what the user would do as possible, so he removes the ability to shallow render your components like Enzyme. Shallow rendering mocks out every React component that is within the React component you are testing and so if you want to mock anything he advises you to be explicit. With Jest's super easy mocking, it complements Kent's testing library super nicely as you will need to mock out functions that create side effects. The reason why mocking out everything by default is undesirable is because if you refactor your component to have a child component, some of your tests will fail because the DOM elements inside your child components won't be rendered. Mounting your entire component removes this problem of testing implementation detail.
+Kent advocates testing as close to what the user would do as possible, so he removes the ability to shallow render your components like Enzyme would allow. If you haven't used Enzyme, it is a react testing library that gives you an enormous amount of ways to test your components. Kent believes that some of these ways are unnecessary and sometimes harmful to the way you test. One of the things that is very common with testing with Enzyme is shallow rendering. Shallow rendering mocks out every React component that is within the React component you are testing. Mocking out everything by default is undesirable because if you refactor your component to wrap some of your DOM nodes with a child component, some of your tests will fail because the DOM elements inside your child components won't be rendered. The actual functionality of your component may not have changed, only the implemenation. Therefore with shallow rendering you end up testing implementation detail making your tests brittle.
+
+It is unlikely that you won't have to mock anything though, so if you do end up mocking things you should use jest's mocking functionality to explicitly mock out functions that are creating side effects.
 
 ## Arrange, Act, Assert
 
