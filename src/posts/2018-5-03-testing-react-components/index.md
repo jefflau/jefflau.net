@@ -1,8 +1,7 @@
 ---
 title: Arrange, Act, Assert - How to test React components
 slug: /arrange-act-assert-how-to-test-react-components
-date: 2018-04-30
-draft: true
+date: 2018-05-03
 ---
 
 I've mainly avoided testing my React components, because quite frankly, it seemed complicated. Instead I've chosen to test mostly things that were easier to unit test. And instead of trying to test my components as they were, I would design my components so they were easier to test as stateless components. However changing the way I write my components to test more easily has led to abstractions that have made my code less easily reasoned about. This isn't to say this is bad, but you can always go too far.
