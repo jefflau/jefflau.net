@@ -1,5 +1,5 @@
 ---
-title: What can you use ENS for
+title: What can you use ENS for?
 slug: /what-can-you-use-ENS-for
 date: 2018-09-23
 ---
