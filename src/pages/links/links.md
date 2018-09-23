@@ -8,7 +8,7 @@ date_updated:   2018-02-02T10:33:14.597Z
 
 Various links and resources to topics that I teach or am passionate about. The topics vary between self improvement to coding to design.
 
-Updated 23 March 2018
+Updated 23 September 2018
 
 ## Content
 
