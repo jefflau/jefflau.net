@@ -4,8 +4,6 @@ slug: /what-can-you-use-ENS-for
 date: 2018-09-23
 ---
 
-#What are ENS Names for?
-
 ENS is a decentralised naming system. I like to compare it to a global decentralised phone book where most of the time you want to associate your phone number with a name that is easily remembered and recognised. But in your phone book on your phone you can also add in other records other than a phone number such as email, a website, a picture or more.
 
 ![Phone book](IMG_1249.png)
