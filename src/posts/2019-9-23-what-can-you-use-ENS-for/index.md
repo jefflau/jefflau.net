@@ -106,4 +106,6 @@ function register(bytes32 label, address owner) public only_owner(label) {
     }
 ```
 
+You can see from this solidity code how the first-in-first-server registrar registers a subdomain. It just sets a subNodeOwner for your 'rootNode' (e.g. vitalik.eth) and you just need to add a label and an owner and it will automatically create a new subDomain for you.
+
 ENS is constantly evolving. We want to create more standards around records in resolvers so they can be used for more than just addresses. However if we only achieve the aim of turning all Ethereum addresses into human readable names, that will be enough of a difference to make Ethereum much more user friendly. If you use this for your wallet or for your dapp, you will be helping us take that step towards blockchain usability.
