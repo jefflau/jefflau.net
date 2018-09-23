@@ -3,26 +3,20 @@ title: Now
 slug: /now
 page: true
 date: 2016-03-22T16:46:54.747Z
-date_updated:   2018-03-22
+date_updated:   2018-09-23
 ---
 
 ###What am I doing right now
 
-Updated 26 March 2018
+Updated 23 September 2018
 
-I'm in Taipei and right now I am:
+I'm in London and right now I am:
 
-* Thinking about balance in regards to health, life and physicality
+* Doing a daily practice of yoga every night
 * Currently taking on students for private mentorship
-* Freelancing again
-* Climbing three times a week.
-* Started lifting weights to balance out my muscle imbalances
-* Learning VulcanJS, a GraphQL framework
-* Learning GraphQL and Apollo
-* Learning more about testing
-* Updating my npm package with ~200k downloads a month that has been neglected for too long. A testing package called [jest-fetch-mock](https://www.npmjs.com/package/jest-fetch-mock)
-* Just bought design code book! Planning on reading one chapter per day from today
-* Thinking about learning d3 and data viz. Been interested in it for too long...
-* Also just listened to a podcast on web animations and greensock, which is also something I've been wanting to learn for ages.
+* Starting a startup!
+* Working at ENS
+* Learning a bit of D3
+* Thinking about picking up Python
 * 2018 is definitely the year of learning
 * Thinking about learning SVG...
