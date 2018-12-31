@@ -1,7 +1,8 @@
 ---
 title: Progress on ENS
 slug: /redesign-of-ens
-date: 2018-11-08
+date: 2019-01-20
+draft: true
 ---
 
 I started working on ENS in June 2017. It was just a small project I managed to pick up off of Ethlance. Through a little bit of friendly nepotism, namely, my friend (and now co-founder) Makoto already knew Nick from ENS and managed get me hired to do the first iteration of the ENS app. It was quick, it was simple and it worked. And it looked like this:
