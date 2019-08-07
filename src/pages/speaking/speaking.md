@@ -11,7 +11,10 @@ I have for some reason been invited to do speaking recently. So I'm tracking the
 ###Past events
 
 ETHBerlin September 2018 (they lost the vids 😓)
+Devcon4 October 2018 - State of ENS
+Devcon4 October 2018 - ENS Integration workshop
+ETHIndia 2 August 2019 - Your dapp isn't finished without ENS
 
 ### Future events
 
-Devcon4 October 2018
+Devcon5 October 2019 - ENS Integration workshop
