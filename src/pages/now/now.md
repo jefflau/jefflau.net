@@ -8,15 +8,12 @@ date_updated:   2018-09-23
 
 ###What am I doing right now
 
-Updated 23 September 2018
+Updated 8 August 2018
 
-I'm in London and right now I am:
+I'm in India (on holiday) and based in Taipei, Taiwan and right now I am:
 
-* Doing a daily practice of yoga every night
-* Currently taking on students for private mentorship
-* Starting a startup!
+* Working on Kickback
 * Working at ENS
-* Learning a bit of D3
-* Thinking about picking up Python
-* 2018 is definitely the year of learning
-* Thinking about learning SVG...
+* Trying to push my climbing - recently made finals at a Taiwanese Pro comp!
+* Learning some JAMstack/serverless stuff
+* Migrate my site from surge to netlify (oh so smooth)
