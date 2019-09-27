@@ -6,7 +6,7 @@ date: 2019-09-27
 
 I got tired of looking up shortcuts dozens of times before I learn them, so I'm creating this post for myself to learn the shortcuts and also as a cheatsheet so I have them all in one place!
 
-## CMD + F - Find
+## ⌘ + F - Find
 
 Everyone should know this, it's not just for coding. If you don't, learn it. I use this as much as copy/paste
 
