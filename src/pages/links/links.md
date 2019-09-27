@@ -8,7 +8,7 @@ date_updated:   2018-02-02T10:33:14.597Z
 
 Various links and resources to topics that I teach or am passionate about. The topics vary between self improvement to coding to design.
 
-Updated 23 September 2018
+Updated 27 September 2019
 
 ## Content
 
@@ -82,7 +82,7 @@ Updated 23 September 2018
 
 ## CSS
 
-###Articles
+### Articles
 
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
@@ -92,7 +92,7 @@ Updated 23 September 2018
 * [What the Flexbox?](http://flexbox.io/) - Free Course on Flexbox by Wes Bos
 * [CSS Grid](https://cssgrid.io/) - Free Course on CSS Grid by Wes Bos
 
-##Computer Science
+## Computer Science
 
 ### Videos
 
@@ -105,16 +105,17 @@ Updated 23 September 2018
 ### Books
 
 * [Algorithm design manual](https://github.com/haseebr/competitive-programming/blob/master/Materials/The%20Algorithm%20Design%20Manual%20by%20Steven%20S.%20Skiena.pdf)
+* [9 Algorithms That Changed the Future](https://en.wikipedia.org/wiki/9_Algorithms_That_Changed_the_Future) - Really great intro book without any technical jargon at all! Non programmers can read it too to understand a bit more about CS
 
-###Videos
+### Videos
 
 * http://www3.cs.stonybrook.edu/~algorith/video-lectures/
 * Four semesters of CS - http://btholt.github.io/four-semesters-of-cs/
 * AI - [http://ai.berkeley.edu/lecture_videos.html](http://ai.berkeley.edu/lecture_videos.html)
 
-##Blockchain
+## Blockchain
 
-###Videos
+### Videos
 
 * Blockchain in JS - [https://www.youtube.com/watch?v=zVqczFZr124](https://www.youtube.com/watch?v=zVqczFZr124)
 
